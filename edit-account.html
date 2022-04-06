@@ -70,19 +70,17 @@
       font-weight: bold;
     }
 
-    .input {
+    .value {
       margin-bottom: 24px;
-      border: none;
-      border-radius: 8px;
       padding: 6px;
       height: 30px;
 
       font-size: var(--md);
 
-      background-color: var(--text-input-field);
+      color: var(--very-light-pink);
     }
 
-    .primary-button {
+    .secondary-button {
       border: none;
       border-radius: 8px;
       width: 100%;
@@ -91,8 +89,9 @@
       font-size: var(--md);
       font-weight: bold;
 
-      background-color: var(--hospital-green);
-      color: var(--white);
+      border: 1px solid var(--hospital-green);
+      background-color: var(--white);
+      color: var(--hospital-green);
 
       cursor: pointer;
     }
@@ -132,15 +131,15 @@
 
       <form action="/" class="form">
         <label for="name" class="label">Name</label>
-        <input type="text" id="name" placeholder="Camila Yokoo" class="input input-name">
+        <p class="value">Camila Yokoo</p>
 
         <label for="email" class="label">Email address</label>
-        <input type="email" id="email" placeholder="camilayokoo@gmail.com" class="input input-email">
+        <p class="value">camilayokoo@gmail.com</p>
 
         <label for="password" class="label">Password</label>
-        <input type="password" id="password" placeholder="*********" class="input input-password">
+        <p class="value">*********</p>
 
-        <input type="submit" value="Create account" class="primary-button input-create-account-button">
+        <input type="submit" value="Edit" class="secondary-button input-create-account-button">
       </form>
     </div>
   </div>
