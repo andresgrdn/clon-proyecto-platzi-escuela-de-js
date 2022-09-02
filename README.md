@@ -12,7 +12,7 @@ This repository host some components for the JS school main project, the final p
 
 ### Project links
 
-Live site: [andresgrdn.github.io/clon-proyecto-platzi-escuela-de-js](http)
+Live site: [andresgrdn.github.io/clon-proyecto-platzi-escuela-de-js](https://andresgrdn.github.io/clon-proyecto-platzi-escuela-de-js/)
 
 Source URL: [github.com/andresgrdn/clon-proyecto-platzi-escuela-de-js](https://github.com/andresgrdn/clon-proyecto-platzi-escuela-de-js/)
 
